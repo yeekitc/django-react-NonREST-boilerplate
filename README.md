@@ -67,6 +67,7 @@ Click the increment button to see the interaction between React and Django.
 
 ## Project Structure
 
+```
 VirtualPatientSystem/
 ├── .gitignore
 ├── LICENSE
@@ -128,6 +129,7 @@ VirtualPatientSystem/
 │   └── frontend/
 │       ├── dev/                   # Dev build output for React
 │       └── prod/                  # Prod build output for React
+```
 
 ## Notes
 Ensure that the STATICFILES_DIRS and STATIC_URL settings in backend/settings.py are configured correctly for static file serving.
