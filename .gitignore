@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv
+
+# Node
+node_modules/
+build/
+
+# VSCode
+.vscode/
+.DS_Store
+
+# Generated static files
+/staticfiles
+/static_root

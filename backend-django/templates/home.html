@@ -1,0 +1,21 @@
+<!-- backend-django/templates/home.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React-Django Integration</title>
+    <!-- Load the React CSS files -->
+    {% for css_path in reactjs_assets_css_paths %}
+        <link rel="stylesheet" href="{% static css_path %}">
+    {% endfor %}
+</head>
+<body>
+    <div id="root"></div> <!-- React app will render here -->
+
+    <!-- Load the React JavaScript files -->
+    {% for js_path in reactjs_assets_js_paths %}
+        <script src="{% static js_path %}"></script>
+    {% endfor %}
+</body>
+</html>
